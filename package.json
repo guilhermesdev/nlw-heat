@@ -1,0 +1,11 @@
+{
+  "name": "nlw-heat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Guilherme Souza",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

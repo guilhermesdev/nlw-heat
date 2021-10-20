@@ -5,7 +5,8 @@
   "author": "Guilherme Souza",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --exit-child src/server.ts"
+    "dev": "ts-node-dev --exit-child src/server.ts",
+    "build": "tsc -p ."
   },
   "dependencies": {
     "@prisma/client": "^3.2.1",
